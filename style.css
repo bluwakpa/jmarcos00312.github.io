@@ -1,23 +1,23 @@
-h1{
+h1{/*changing the h1 color to light green/ also change the font and font size/ putting the text on the center and adding a picture in the background to */
     color:#D0D281 !important;
     font-size:40px;
     font-family: "arial";
     text-align: center;
     background: url(../img/sky.jpg);
     padding: 50px;
-}
+}/*changing the h2 and h3 color  to light green and font*/
 h2,h3,.teams,.interest{
     color: #D0D281 !important;
     font-family: "arial";
 }
-.intro{
+.intro{/*change the color to with and adjust the font size to 1.3em and align the text in the center and add padding*/
     color: #CDCAD5;
     font-size: 1.3em;
     text-align: center;
     padding: 20px 10px;
     font-family: "arial";
 }
-.me-picture{
+.me-picture{/*add a picture of me and made it a circle and put it on the middle and add a white border/ also add an animaton*/
     height: 400px;
     width: 400px;
     border-radius: 50%;
@@ -27,11 +27,10 @@ h2,h3,.teams,.interest{
     border: 10px solid whitesmoke;
     transition: .25s
 }
-body .me-picture:hover {
+body .me-picture:hover {/*added an animation when we hover it will be bigger by 1.2 and rotate 360deg*/
     transform: scale(1.2) rotate(360deg)
 }
-body .me-picture
-.background{
+.background{/*made the background steady*/
     position:relative;
     left: 0;
     top: 0;
@@ -39,34 +38,34 @@ body .me-picture
     height:100%;
     background-position: 100px 0;
 }
-.hero {
+.hero {/*added thhe background picture that takes the whole section of the intro texts*/
     height: 150%;
     width: 100%;
     background: url("../img/footballfield.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
-.about-me{
+.about-me{/*a quick paragraph on how ma i and what i enjoy*/
     color: #CDCAD5;
     font-size: 1.3em;
     text-align: center;
     padding: 20px 10px;
     font-family: "arial";
 }
-.interest{
+.interest{/*a quick paragraph on how ma i and what i enjoy*/
     font-size: 25px;
     font-family: "arial";
     margin: auto;
     padding: 40px 40px;
 }
-.teams{
+.teams{/*a quick paragraph on how ma i and what i enjoy*/
     font-size: 25px;
     font-family: "arial";
     margin: auto;
     padding: 40px 40px;
 
 }
-.two{
+.two{/*add another background picture for the about me texts*/
     position:relative;
     left: 0;
     top: 0;
@@ -74,21 +73,21 @@ body .me-picture
     height:100%;
     background-position: 100px 0;
 }
-.background-two {
+.background-two {/*add another background picture for the about me texts*/
     height: 150%;
     width: 100%;
     background: url("../img/sky.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
-.navbar {
+.navbar {/*add a navigation bar on the bottom of the page that will always be seen on the bottom of the page*/
   background-color: #333;
   overflow: hidden;
   position: fixed;
   bottom: 0;
   width: 100%;
 }
-.navbar a {
+.navbar a {/*the navigation bar outline on how big and color of the text*/
   float: left;
   display: block;
   color: #f2f2f2;
@@ -97,11 +96,11 @@ body .me-picture
   text-decoration: none;
   font-size: 17px;
 }
-.navbar a:hover {
+.navbar a:hover {/*add an animation when you hover your mouse in the nav bar section*/
   background-color: #ddd;
   color: black;
 }
-.navbar a.active {
+.navbar a.active {/*add an animation when the link is activated*/
   background-color: #4CAF50;
   color: white;
 }
