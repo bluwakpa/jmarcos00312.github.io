@@ -1,0 +1,107 @@
+h1{
+    color:#D0D281 !important;
+    font-size:40px;
+    font-family: "arial";
+    text-align: center;
+    background: url(../img/sky.jpg);
+    padding: 50px;
+}
+h2,h3,.teams,.interest{
+    color: #D0D281 !important;
+    font-family: "arial";
+}
+.intro{
+    color: #CDCAD5;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 20px 10px;
+    font-family: "arial";
+}
+.me-picture{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 10px solid whitesmoke;
+    transition: .25s
+}
+body .me-picture:hover {
+    transform: scale(1.2) rotate(360deg)
+}
+body .me-picture
+.background{
+    position:relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:100%;
+    background-position: 100px 0;
+}
+.hero {
+    height: 150%;
+    width: 100%;
+    background: url("../img/footballfield.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-me{
+    color: #CDCAD5;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 20px 10px;
+    font-family: "arial";
+}
+.interest{
+    font-size: 25px;
+    font-family: "arial";
+    margin: auto;
+    padding: 40px 40px;
+}
+.teams{
+    font-size: 25px;
+    font-family: "arial";
+    margin: auto;
+    padding: 40px 40px;
+
+}
+.two{
+    position:relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:100%;
+    background-position: 100px 0;
+}
+.background-two {
+    height: 150%;
+    width: 100%;
+    background: url("../img/sky.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
