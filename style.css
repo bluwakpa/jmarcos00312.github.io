@@ -18,9 +18,9 @@ h2,h3,.teams,.interest{
     font-family: "arial";
 }
 .me-picture{/*add a picture of me and made it a circle and put it on the middle and add a white border/ also add an animaton*/
-    height: 400px;
-    width: 400px;
-    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    border-radius: 80%;
     margin-left: auto;
     margin-right: auto;
     display: block;
