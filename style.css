@@ -7,7 +7,7 @@ h1{/*changing the h1 color to light green/ also change the font and font size/ p
     padding: 50px;
 }/*changing the h2 and h3 color  to light green and font*/
 h2,h3,.teams,.interest{
-    color: #D0D281 !important;
+    color: orangered !important;
     font-family: "arial";
 }
 .intro{/*change the color to with and adjust the font size to 1.3em and align the text in the center and add padding*/
@@ -46,7 +46,7 @@ body .me-picture:hover {/*added an animation when we hover it will be bigger by 
     background-repeat: no-repeat;
 }
 .about-me{/*a quick paragraph on how ma i and what i enjoy*/
-    color: #CDCAD5;
+    color: rgb(243, 241, 248);
     font-size: 1.3em;
     text-align: center;
     padding: 20px 10px;
