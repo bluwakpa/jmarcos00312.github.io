@@ -17,7 +17,7 @@ h2,h3,.teams,.interest{
     padding: 20px 10px;
     font-family: "arial";
 }
-.me-picture{/*add a picture of me and made it a circle and put it on the middle and add a white border/ also add an animaton*/
+.face-picture{/*add a picture of me and made it a circle and put it on the middle and add a white border/ also add an animaton*/
     height: 250px;
     width: 250px;
     border-radius: 80%;
