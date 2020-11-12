@@ -27,7 +27,7 @@ h2,h3,.teams,.interest{
     border: 10px solid whitesmoke;
     transition: .25s
 }
-body .me-picture:hover {/*added an animation when we hover it will be bigger by 1.2 and rotate 360deg*/
+body .face-picture:hover {/*added an animation when we hover it will be bigger by 1.2 and rotate 360deg*/
     transform: scale(1.2) rotate(360deg)
 }
 .background{/*made the background steady*/
